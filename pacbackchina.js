@@ -1,38 +1,72 @@
 var proxy = "SOCKS5 127.0.0.1:1086; SOCKS 127.0.0.1:1086; DIRECT;";
 
+/*
+ *  翻墙回国PAC规则
+ */
+
 var rules = [
-  "||tudou.com",
-  "||youku.com",
+//国内二级域名
   "||edu.cn",
+  "||org.cn",
+  "||gov.cn",
+//网易
   "||163.com",
   "||126.com",
   "||127.net",
   "||netease.com",
+  "||163yun.com",
+  "||126.net",
+//腾讯
   "||qq.com",
   "||soso.com",
+  "||qpic.cn",
+  "||qtimg.cn",
+  "||weixin.com",
+  "||qlogo.cn",
+//新浪
   "||weibo.com",
-  "||zhihu.com",
   "||sinajs.cn",
-  "||org.cn",
-  "||gov.cn",
-  "||sh.cn",
-  "||xiumi.us",
+  "||sina.com",
+  "||sina.cn",
+  "||sina.com.cn",
+  "||sinaimg.cn",
+  "||sinajs.cn",
+  "||miaopai.com",
+  "||xiaoka.tv",
+  "||t.cn",
+//阿里
   "||aliyun.com",
-  "||bilibili.tv",
-  "||bilibili.com",
-  "||kankanews.com",
-  "||hdslb.com",
-  "||baidu.com",
-  "||ip138.com",
-  "||baidu.com",
-  "||xiami.com",
-  "||douban.com",
-  "||wflms.com",
-  "||wflms.cn",
   "||taobao.com",
+  "||alicdn.com",
+  "||tmall.com",
+  "||mmstat.com",
+  "||tbcdn.com",
+  "||alibabacloud.com",
+  "||alipay.com",
+  "||hichina.com",
+  "||xiami.com",
+  "||xiami.net",
+//百度
+  "||baidu.com",
+  "||bdstatic.com",
+  "||bcebos.com",
+  "||baidupcs.com",
+//Bilibili
+  "||hdslb.com",
+  "||bilibili.com",
+  "||geetest.com",
+//国内其它
+  "||zhihu.com",
+  "||zhimg.com",
+  "||xiumi.us",
+  "||douban.com",
+  "||doubanio.com",
   "||tianyancha.com",
-
+  "||qiniu.com",
+//测试
+  "||ip138.com"
 ];
+
 
 /*
  * This file is part of Adblock Plus <http://adblockplus.org/>,
