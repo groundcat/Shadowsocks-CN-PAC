@@ -1,7 +1,14 @@
 # Shadowsocks-Back-China-PAC
 
-PAC file for Shadowsocks in purpose of reverse-proxy some Chinese websites
 翻墙回国PAC规则
+
+PAC file for Shadowsocks in purpose of reverse-proxy some Chinese websites
+
+# 下载
+
+[PAC](https://raw.githubusercontent.com/yzyjim/Shadowsocks-Back-China-PAC/master/Shadowsocks-Back-CN-PAC.js)
+
+[PEPI](https://raw.githubusercontent.com/yzyjim/Shadowsocks-Back-China-PAC/master/Shadowsocks-Back-CN-PEPI.txt)
 
 # 在Shadowsocks/ShadowsocksR客户端中使用
 
