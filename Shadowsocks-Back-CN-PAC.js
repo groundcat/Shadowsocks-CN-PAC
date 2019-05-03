@@ -9,6 +9,8 @@ var rules = [
   "||edu.cn",
   "||org.cn",
   "||gov.cn",
+//爱奇艺
+  "||iqiyi.com",
 //网易
   "||163.com",
   "||126.com",
@@ -63,6 +65,7 @@ var rules = [
   "||doubanio.com",
   "||tianyancha.com",
   "||qiniu.com",
+  "||*.cn",
 //测试
   "||ip138.com"
 ];
