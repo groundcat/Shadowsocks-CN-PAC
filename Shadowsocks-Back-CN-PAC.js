@@ -5,12 +5,8 @@ var proxy = "SOCKS5 127.0.0.1:1086; SOCKS 127.0.0.1:1086; DIRECT;";
  */
 
 var rules = [
-//国内二级域名
-  "||edu.cn",
-  "||org.cn",
-  "||gov.cn",
-//爱奇艺
-  "||iqiyi.com",
+//.cn域名
+  "||*.cn",
 //网易
   "||163.com",
   "||126.com",
@@ -53,20 +49,39 @@ var rules = [
   "||bdstatic.com",
   "||bcebos.com",
   "||baidupcs.com",
+//爱奇艺
+  "||iqiyi.com",
+//优酷土豆
+  "||youku.com",
+  "||tudou.com",
 //Bilibili
   "||hdslb.com",
   "||bilibili.com",
   "||geetest.com",
-//国内其它
-  "||zhihu.com",
-  "||zhimg.com",
-  "||xiumi.us",
+//LeTV
+  "||letv.com",
+  "||le.com",
+  "||lecloud.com",
+  "||letv.cn",
+//搜狗
+  "||sogou.com",
+//搜狐
+  "||sohu.com",
+  "||itc.cn",
+  "||sohucs.com",
+//豆瓣
   "||douban.com",
   "||doubanio.com",
+//知乎
+  "||zhihu.com",
+  "||zhimg.com",
+//秀米
+  "||xiumi.us",
+//天眼查
   "||tianyancha.com",
+//七牛
   "||qiniu.com",
-  "||*.cn",
-//测试
+//测试大陆境内访问IP地址
   "||ip138.com"
 ];
 
