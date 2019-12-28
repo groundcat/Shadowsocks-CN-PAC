@@ -1,36 +1,27 @@
-/*
-翻墙回国 PAC 规则片段
----------------------------------------------------
-最后更新：2019-12-26
----------------------------------------------------
- */
-
 var proxy = "SOCKS5 127.0.0.1:1086; SOCKS 127.0.0.1:1086; DIRECT;";
 
-var rules = [
+/*
+ *  翻墙回国PAC规则
+ */
 
-# 国内二级域名
-  "||edu.cn",
-  "||gov.cn",
-# AcFun
-  "||acfun.cn",
-  "||acfun.com",
-  "||aixifan.com",
-# 网易
+var rules = [
+//.cn域名
+  "||*.cn",
+//网易
   "||163.com",
   "||126.com",
   "||127.net",
   "||netease.com",
   "||163yun.com",
   "||126.net",
-# 腾讯
+//腾讯
   "||qq.com",
   "||soso.com",
   "||qpic.cn",
-  "||gtimg.cn",
+  "||qtimg.cn",
   "||weixin.com",
   "||qlogo.cn",
-# 新浪
+//新浪
   "||weibo.com",
   "||sinajs.cn",
   "||sina.com",
@@ -41,7 +32,7 @@ var rules = [
   "||miaopai.com",
   "||xiaoka.tv",
   "||t.cn",
-# 阿里
+//阿里
   "||aliyun.com",
   "||taobao.com",
   "||alicdn.com",
@@ -53,54 +44,44 @@ var rules = [
   "||hichina.com",
   "||xiami.com",
   "||xiami.net",
-# 百度
+//百度
   "||baidu.com",
   "||bdstatic.com",
   "||bcebos.com",
   "||baidupcs.com",
-  "||qianqian.com",
-# Bilibili
+//爱奇艺
+  "||iqiyi.com",
+//优酷土豆
+  "||youku.com",
+  "||tudou.com",
+//Bilibili
   "||hdslb.com",
   "||bilibili.com",
   "||geetest.com",
-  "||acgvideo.com",
-# 湖南TV
-  "||hitv.com",
-  "||hunantv.com",
-  "||mgtv.com",
-# Migu
-  "||cmvideo.cn",
-  "||migu.cn",
-  "||miguvideo.com",
-# 优酷
-  "||soku.com",
-  "||youku.com",
-  "||ykimg.com",
-# 爱奇艺
-  "||iqiyi.com",
-  "||iqiyipic.com",
-  "||qy.net",
-# 搜狐
+//LeTV
+  "||letv.com",
+  "||le.com",
+  "||lecloud.com",
+  "||letv.cn",
+//搜狗
+  "||sogou.com",
+//搜狐
   "||sohu.com",
-  "||sohu.com.cn",
   "||itc.cn",
-  "||v-56.com",
-# Kugou, Kuwo
-  "||kugou.com",
-  "||kuwo.cn",
-  "||koowo.com",
-# 知乎
-  "||zhihu.com",
-  "||zhimg.com",
-# 秀米
-  "||xiumi.us",
-# 豆瓣
+  "||sohucs.com",
+//豆瓣
   "||douban.com",
   "||doubanio.com",
-# 天眼查
+//知乎
+  "||zhihu.com",
+  "||zhimg.com",
+//秀米
+  "||xiumi.us",
+//天眼查
   "||tianyancha.com",
-
-# IP地址测试
+//七牛
+  "||qiniu.com",
+//测试大陆境内访问IP地址
   "||ip138.com"
 ];
 
