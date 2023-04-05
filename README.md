@@ -1,6 +1,8 @@
-# Shadowsocks-Back-China-PAC
+# Shadowsocks-CN-PAC
 
-翻墙回国规则片段
+Rule snippets for proxy traffic to popular China-based service providers.
+
+**Notice: These rules are now obsolete. They serve as templates and are provided as-is.**
 
 [Clash](https://raw.githubusercontent.com/oosalt/Shadowsocks-Back-China-PAC/master/BackCN-Clash.yaml)
 
