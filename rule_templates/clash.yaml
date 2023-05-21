@@ -1,0 +1,8 @@
+# 翻墙回国 Clash 规则片段
+
+Rule:
+{{clash-rules}}
+
+- GEOIP,CN,PROXY
+
+- MATCH,DIRECT
